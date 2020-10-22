@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 스타일의 우선순위 
+        * > 태그 > 클래스 > 아이디 > 인라인 */
+        * {
+            margin: 12;
+            padding: 20;
+        }
+        h1{
+            border: 3px solid black;
+            border-bottom: 5px dashed #ff0000;
+            width: 400px;
+            /* height: 200px; */
+        }
+        p {
+            color: orange !important
+        }
+        #con {
+            color: blue;
+        }
+        .text {
+            color: violet;
+        }
+        div {
+            color: blue;
+            font-size: 30px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>소스에서 우선순위</h1>
+    <p id="con">스타일 우선순위</p>
+    <div>
+        <h2>디자인 과정</h2>
+        <ul>
+            <li>웹학과</li>
+            <li>편집<span class="text">디자인</span>학과</li>
+            <li>모션영상학과</li>
+            <li class="text">건축인테리어학과</li>
+        </ul>
+    </div>
+</body>
+</html>

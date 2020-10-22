@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <center><b>HTML FORM 테스트</b></center><br>
+</head>
+<body>
+    <table border="1">
+     
+        <tr>
+        
+            <td>
+            <label for="name">이름</label>
+            <input type="text" id="name" name="name" /><br>
+
+            <label for="ipw">비번</label>
+            <input type="password" id="pwd" name="pwd"><br><br/>
+            
+            <input type="submit" value="버튼" />
+        </td>
+
+            <td>성별<br>
+                <input type="radio" id="gen1" name="gender" value="1"> 
+                <label for="gen1">남자</label>
+            <input type="radio" id="gen2" name="gender" value="2">
+              <label for="gen2">여자</label>
+              <br><br/>
+              
+              사용중인 편집기는?<br>
+              <input type="checkbox" name="tool" value="1"> Eclipse<br>
+              <input type="checkbox" name="tool" value="2"> Jbuilder</br>
+            </td>
+        </tr>
+        <tr>
+            <td>사용중인 운용체제는?<br>
+                <select>
+                    <option>윈도우</option>
+                    <option>리눅스</option>
+                    <option>솔라리스</option>
+                    <option>기타</option>
+                </select> <br><br/>
+            사용중인 컴퓨터 하드웨어는?<br>
+            <select>
+                <option>펜티엄</option>
+            </select> <br><br/>
+
+            </td>
+           
+            <td>
+                <br>기타 건의 사항<br>
+            <textarea name="intro"></textarea></td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" value="전송"/>
+                <input type="reset" value="취소"/><br/>
+            </td>
+        </tr>
+
+    </table>   
+</body>
+</html>

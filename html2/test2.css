@@ -1,0 +1,36 @@
+@charset "utf-8";
+a {
+    text-decoration: none;
+    color: #e6b9dc
+}
+a:hover {
+    text-decoration: underline;
+    color: #c3c3e3
+    background-color: hotpink;
+}
+
+a:active {
+    text-decoration: underline;
+    color: #000;
+    background-color: indigo;
+}
+#header {
+    background-image:url(img/강아지1.jpg);
+    text-align: center;
+    font-weight: 700;
+    width: 500px;
+    height: 500px;
+}
+
+#menu {
+    border:1px dotted #ff0000;
+}
+
+#main {
+    padding-top: 100px;
+    border-top: 1px dotted forestgreen;
+   
+}
+.blank {
+    display: none;
+}

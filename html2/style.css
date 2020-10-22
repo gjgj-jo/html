@@ -1,0 +1,14 @@
+@charset "utf-8";
+h1 {
+    color:red;
+    font-weight: bold;
+}
+div {
+    border: 1px solid #000;
+}
+#main {
+    border: 2px dashed #f00;
+}
+.menu {
+    border:3px dotted #ffff00;
+}

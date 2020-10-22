@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="xxx.html" method="GET" enctype="application/x-www-form-urlencoded">
+        <fieldset>
+            <legend>개인정보</legend>
+            <ul>
+                <li>
+                    <label for="name">이름</label>
+                    <input type="text" id="name" name="name" />
+                </li>
+                <li>
+                    <label for="mail">메일주소</label>
+                    <input type="email" id="mail" name="mail" />
+                </li>
+                <li>
+                    <label for="day">날짜</label>
+                    <input type="datetime-local" id="day" name="day" />
+                    <input type="date"/>
+                </li>
+                <li>
+                    <label for="co">색상</label>
+                    <input type="color" id="co" name="co"/>
+                </li>
+                <li>
+                    <input type="search">
+                    <input type="button" value="검색"/>
+                </li>
+                <input type="submit" value="전송" />
+                <input type="button" value="전달" />
+
+            </ul>
+        </fieldset>
+    </form>
+</body>
+</html>
