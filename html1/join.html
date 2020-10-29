@@ -16,7 +16,7 @@
                 <caption>회원가입 필수 입력표</caption>
                 <tr>
                     <th scope="row" class="first"><label for="user_id">❀아이디</lable></th>
-                    <td class="first"><input type="text" id="user_id" class="textForm" required autofocus>
+                    <td class="first"><input type="text" id="user_id" class="textForm" required autofocus>&nbsp;&nbsp;&nbsp;
                     <input type="button" value="중복확인" class="btn"></td>
                 </tr>
                 <tr>
@@ -32,15 +32,19 @@
                     <td><input type="text" id="user_name" class="textForm"></td>
                 </tr>
                 <tr>
-                    <th><label for="user_tel">❀연락처</label></th>
-                    <td><input type="tel"id="user_tel" class="textForm">&nbsp;&nbsp;&nbsp;
-                        <input type="checkbox" name="sns" id="sns">
-                        <label for="hiking">SNS 수신동의</label></td>
+                    <th><label for="user_tel">❀휴대폰번호</label></th>
+                    <td><input type="tel"id="user_tel" class="textForm" placeholder="'ㅡ'표시 없이 입력해주세요 ">&nbsp;&nbsp;&nbsp;
+                    <input type="button" value="휴대폰인증" class="btn"><br/>
+                    <p class="xx">*아이디, 비밀번호 분실 시 본인인증용으로 사용되오니 정확하게 입력해주세요.</p>
+                </td>
+                    
                 </tr>
                 <tr>
                     <th><label for="user_email">❀이메일</label></th>
                     <td>
-                        <input type="email" id="user_email" class="textForm">
+                        <input type="email" id="user_email" class="textForm">&nbsp;&nbsp;&nbsp;
+                        <input type="checkbox" name="sns" id="sns">
+                        <label for="hiking">SNS 수신동의</label></td>
                         <!-- <input type="text" id="user_email">@<input type="text" id="user_email"> -->
                     </td>
                 </tr>
@@ -109,10 +113,16 @@
                    </tr>
                 </table>
             </fieldset>
+            <div class="agree">
+            <input type="checkbox" name="agreement" id="agreee">
+            <label for="agreee">개인정보 수집 및 이용에 동의합니다.</label>&nbsp;
+            <input type="button" value="내용보기" class="btn">
+            </div>
             <div class="btn_area">
                 <button type="submit" class="btn_join">회원가입</button>
                 <button type="reset" class="btn_cancel">취소</button>
             </div>
+            
         </form>
     </div>
 </body>

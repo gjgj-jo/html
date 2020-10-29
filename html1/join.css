@@ -98,3 +98,12 @@ body {
     color: black;
     border-radius: 10px;
 }
+.agree {
+    padding: 10px;
+}
+.xx {
+    height: 15px;
+    padding: 5px;
+    font-size: 14px;
+    color: gray;
+}
