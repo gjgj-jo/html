@@ -14,6 +14,14 @@ caption {
     position: absolute;
     left: 9999em;
 }
+h1 {
+    background-color: rgb(255, 147, 165);
+    margin-top: 30px;
+    text-align: center;
+    border: 1px dotted gray;
+    width: 800px;
+    margin: 10px auto;
+}
 body {
     font-family: "나눔고딕", "Nanum Gothic", "sans-serif";
     font-size: 16px;
@@ -25,18 +33,18 @@ body {
 }
 #join_wrap .title {
     padding: 50px 0 20px;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 700;
 }
 .joinTable th, .joinTable td{
     padding: 10px;
     box-sizing: border-box;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px dotted #ddd;
 }
 .joinTable th {
     width: 180px;
     text-align: left;
-    background-color: #f5f5f5;
+    background-color: pink
 }
 .joinTable td {
     width: 620px;
@@ -73,8 +81,8 @@ body {
     margin: 30px 0;
 }
 .btn_area button {
-    width: 200px;
-    height: 72px;
+    width: 150px;
+    height: 50px;
     margin: 0 10px;
     border: 0;
     font-size: 20px;
@@ -82,4 +90,11 @@ body {
 .btn_area .btn_join {
     background-color: palevioletred;
     color: #ddd;
+    border-radius: 10px;
+}
+.btn_area .btn_cancel {
+    /* background-color: palevioletred; */
+    border: 1px solid gray;
+    color: black;
+    border-radius: 10px;
 }
