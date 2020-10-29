@@ -1,0 +1,29 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+img {
+    width: 100px;
+    height: 100px;
+}   
+div {
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid green;
+    border-radius: 20px;  /*둥근모서리*/
+    text-align: center;
+    padding: 10px 20px;
+    float: left; /*박스정렬*/
+    
+}
+.icon01 {
+    background-color: hotpink;
+}
+.icon02 {
+    background-color: lightgreen;
+}
+.icon03 {
+    background-color: lightgray;
+}

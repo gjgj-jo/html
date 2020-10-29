@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>가입창</title>
+    <link href="join.css" rel="stylesheet"
+</head>
+<body>
+    <div id="join_wrap">
+        <form name="" method="get" action="aaa.html">
+            <fieldset>
+                <legend class="title">필수입력정보</legend>
+                <table class="joinTable">
+                <caption>회원가입 필수 입력표</caption>
+                <tr>
+                    <th scope="row" class="first"><label for="user_id">아이디</lable></th>
+                    <td class="first"><input type="text" id="user_id" class="textForm" required autofocus>
+                    <input type="button" value="중복확인" class="btn"></td>
+                </tr>
+                <tr>
+                    <th><label for="user_pwd">비밀번호</label></th>
+                    <td><input type="password" id="user_pwd" class="textForm" placeholder="10자 이상의 영문과 숫자조합"></td>
+                </tr>
+                <tr>
+                    <th><label for="user_name">이름</label></th>
+                    <td><input type="text" id="user_name" class="textForm"></td>
+                </tr>
+                <tr>
+                    <th><label for="user_tel">연락처</label></th>
+                    <td><input type="tel"id="user_tel" class="textForm"></td>
+                </tr>
+                <tr>
+                    <th><label for="user_email">이메일</label></th>
+                    <td><input type="email" id="user_email" class="textForm"></td>
+                </tr>
+                <tr>
+                    <th>전자우편신청</th>
+                    <td><input type="radio" id="mail_yes" name="mail" checked />
+                        <label for="mail_yes">예 신청합니다.</label>
+                        <input type="radio" id="mail_no" name="mail"/>
+                        <label for="mail_no">아니요 신청하지 않습니다.</label>
+                    </td>
+                </tr>
+                </table>
+            </fieldset>
+
+            </fieldset>
+                <legend class="title">선택입력정보</legend>
+                <table class="joinTable">
+                    <caption>회원가입 선택 입력표</caption>
+                    <tr><th scope="row" class="first"><label for="user_photo">프로필사진</label></th>
+                        <td class="first"><input type="file" id="user_photo"></td>
+                    </tr>
+                    <tr><th scope="row"><label for="user_birth">생년월일</label></th>
+                        <td><input type="date" id="user_birth" class="textForm"></td>
+                    </tr>
+                    <tr><th scope="row">성별</th>
+                        <td><input type="radio" name="gender" id="male" checked/>
+                            <label for="male">남</label>
+                            <input type="radio" name="gender" id="female"/>
+                            <label for="female">여</label>
+                        </td>
+                    </tr>
+                   <tr>
+                       <th scope="row">취미</th>
+                       <td><input type="checkbox" name="hobby" id="hiking">
+                        <label for="hiking">등산</label>
+                        <input type="checkbox" name="hobby" id="reading">
+                        <label for="reading">독서</label>
+                        <input type="checkbox" name="hobby" id="music">
+                        <label for="music">음악감상</label>
+                        <input type="checkbox" name="hobby" id="movie">
+                        <label for="movie">영화감상</label>
+                        <input type="checkbox" name="hobby" id="cook">
+                        <label for="cook">요리</label>
+                    </td>
+                   </tr>
+                   <tr>
+                       <th scope="row"><label for="user_url">홈페이지</label></th>
+                       <td><input type="url" value="http://" id="user_url" class="textForm"></td>
+                   </tr>
+                   <tr><th scope="row"><label for="user_job">직업</label></th>
+                       <td><select name="user_job" name="" class="textForm">
+                               <option value="">회사원</option>
+                               <option value="">기술자</option>
+                               <option value="">공무원</option>
+                           </select>
+                       </td>
+                   </tr>
+                   <tr>
+                       <th>좋아하는 색상</th>
+                       <td><input type="color" name="user_color"></td>
+                   </tr>
+                    <tr><th scope="row"><label for="user_intro">자기소개</label></th>
+                        <td><textarea class="textarea" cols="30" rows="10" id="user_intro"></textarea>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <div class="btn_area">
+                <button type="reset">취소</button>
+                <button type="reset" class="btn_join">회원가입</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

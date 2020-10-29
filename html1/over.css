@@ -1,0 +1,35 @@
+@charset "utf-8"
+
+*{
+    margin: 0;
+    padding: 0;
+}
+div {
+    border: 2px solid #000;
+    height: 200px;
+    width: 200px;
+}
+.box1 {
+    float: left;
+    box-sizing: border-box;
+    background-color: beige;
+    overflow: visible; /*기본값*/
+}
+.box2 {
+    float: left;
+    box-sizing: border-box;
+    background-color: chartreuse;
+    overflow: hidden;
+}
+.box3 {
+    float: left;
+    box-sizing: border-box;
+    background-color: blueviolet;
+    overflow: scroll;
+}
+.box4 {
+    float: left;
+    box-sizing: border-box;
+    background-color:cyan;
+    overflow: auto;
+}
