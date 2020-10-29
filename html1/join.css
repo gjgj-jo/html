@@ -42,7 +42,7 @@ body {
     border-bottom: 1px dotted #ddd;
 }
 .joinTable th {
-    width: 180px;
+    width: 160px;
     text-align: left;
     background-color: pink
 }
