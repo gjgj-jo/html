@@ -1,0 +1,110 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}       
+body {
+    font-size: 16px;
+    font-family: "나눔고딕", "Nanum gothic", sans-serif;
+    color: #333;
+}
+.header {
+    width: 1140px;
+    height: 90px;
+    margin: 0 auto;
+    background-color: #ddd;
+}
+.header h1 {
+    float: left;
+    padding-top: 28px;
+    margin-right: 25px;
+}
+.header h2 {
+    float: left;
+    line-height: 90px;
+    font-size: 20px;
+}
+.header .menu {
+    float: right;
+}
+.header .menu li {
+    float: left;
+    margin-left: 40px;
+    line-height: 90px;
+}
+.header .menu li a:hover {
+    color: blue;
+}
+.section1 {
+    height: 654px;
+    background : url(img/pc-cover-main.jpg) no-repeat center top;
+    background-size: cover;
+}
+.section1 b{
+    display: block; /*디비전형태로 내려감*/
+    padding: 95px 0 15px;  /*위쪽 왼오 아래쪽*/
+    color: #fff;
+    text-align: center;
+    font-size: 3em;
+}
+.section1 > p {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 75px;
+}
+.section1 .container {
+    width: 1140px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.section1 .container .quick{
+    float: left;
+    width: 270px;
+    height: 270px;
+    background-color: white;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+.section1 .container .quick.last {
+    margin-right: 0px;
+}
+.section1 .quick h3 {
+    margin: 55px 30px 30px 30px;
+    font-size: 28px;
+    background: url(img/arrow.jpg) no-repeat right;
+}
+.section1 .quick p {
+    margin: 0 30px;
+    font-size: 18px;
+    letter-spacing: -1px;
+}
+.section2 {
+    width: 1140px;
+    margin: 0 auto;
+}
+.section2 > div {
+    float: left;
+    width: 480px;
+    padding: 80px 0;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.section2 h3 {
+    font-size: 28px;
+    padding-bottom: 15px;
+}
+.section2 .intro1 {
+    background-image: url(img/icon01.jpg);
+    margin-right: 180px;
+}
+.section2 .intro2 {
+    background-image: url(img/icon02.jpg);
+}
