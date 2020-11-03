@@ -4,7 +4,25 @@
     <meta charset="utf-8">
     <title>일반구조선택자</title>
     <style>
-        
+        li {
+            float: left;
+            list-style: none;
+            padding: 15px;
+        }
+        li:nth-child(2n) {
+            background-color: gray;
+            color: pink;
+        }
+        li:nth-child(2n+1) {
+            background-color: black;
+            color: yellow;
+        }
+        li:first-child {
+            border-radius: 5px 0 0 5px; /* 위 오른쪽 아랫쪽 왼쪽*/
+        }
+        li:last-child {
+            border-radius: 0 5px 5px 0;
+        }
     </style>
 </head>
 <body>

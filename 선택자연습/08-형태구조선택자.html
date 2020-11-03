@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>형태구조선택자</title>
+    <style>
+        h1 :first-of-type {
+            color: red;
+        }
+        h1:nth-of-type(2) {
+            background-color: yellow;
+        }
+        h3:nth-last-of-type(2) {
+            background-color: violet;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    <h1>Header - 1</h1>
+    <h2>Header - 2</h2>
+    <h3>Header - 3</h3>
+    <h1>Header - 1</h1>
+    <h2>Header - 2</h2>
+    <h3>Header - 3</h3>
+    <h1>Header - 1</h1>
+    <h2>Header - 2</h2>
+    <h3>Header - 3</h3>
+</body>
+</html>

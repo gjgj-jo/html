@@ -1,0 +1,117 @@
+@charset "utf-8"
+    * {
+        margin: 0;
+        padding: 0;
+    }  
+    ul {
+        list-style: none;
+    }
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+    img {
+        vertical-align: top;
+        border: 0;
+    }
+    body {
+        font-size: 14px;
+        /* font-family: "맑은고딕", sans-serif; */
+        font-family: 'Itim', cursive;
+        line-height: 1.4;
+    }
+    #top , #section {
+        width: 1000px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    #top .left {
+        background:  url(img/0320-1.jpg) no-repeat;
+        width: 750px;
+        height: 500px;
+        float: left;
+    }
+    #top .left .box {
+        width: 250px;
+        height: 250px;
+        margin-top: 250px;
+        padding: 20px;
+        box-sizing: border-box;
+    }   
+    #top .left .box h2 {
+        text-transform: uppercase;
+    }
+    #top .right {
+        width: 250px;
+        height: 500px;
+        float: right;
+    }   
+    #section .left {
+        width: 750px;
+        height: 500px;
+        float: left;
+    }
+    #section .left .box {
+        width: 250px ;height : 250px;
+        float: left;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    #section .left .box:nth-child(2n+1) {
+        background-color: red;
+        color: white;
+    }
+    #section .left .box:nth-child(2n) {
+        background-color: yellow;
+    }
+    #section .right {
+        width: 210px;
+        height: 460px;
+        background-color: #ffd800;
+        padding: 20px;
+        float: left;
+    }
+    #footer {
+        width: 1000px;
+        height: 40px;
+        margin: 0 auto;
+        background-color: gray;
+    }
+    #footer .left {
+        float: left;
+        width: 750px;
+        height: 40px;
+    }
+    #footer .left li {
+        float: left;
+    }
+    #footer .left li a {
+        display: block;
+        padding-left: 20px;
+        color: #fff;
+        font-size: 12px;
+        line-height: 15px;
+    }
+    #footer .left li a::before {
+        content : " ";
+        border-left: 1px solid darkorange;
+        margin-right: 20px;
+    }
+    #footer .left li:first-child a::before {
+        border-left: 0;
+    }
+    #footer .right {
+        width: 250px;
+        height: 40px;
+        float: left;
+        background-color: #000;
+        text-align: center;
+        line-height: 40px;
+    }
+    #footer .right select {
+        width: 200px; height : 30px;
+        background-color: #109a89;
+        padding-left: 10px;
+        border: 0;
+        color: white;
+    }
