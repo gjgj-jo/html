@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>그라디언트연습</title>
+    <style>
+         * {
+             margin: 0;
+             padding: 0;
+         }
+         h1 {
+             font-size: 5em;
+             text-shadow: 10px 10px 0px yellow;
+             box-shadow: 10px 5px 10px 20px #ff178b;
+         }
+         div {
+             width: 300px;
+             height: 300px;
+             margin: 30px;
+             float: left;
+             border: 10px solid;
+         }
+         .box1 {
+            box-shadow: 10px 10px 5px pink;
+         }
+         .box2 {
+            background: linear-gradient(to right, red, #1f00);
+         }
+         .box3 {
+            /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b8e1fc+0,a9d2f3+10,90bae4+25,90bcea+37,90bff0+50,6ba8e5+51,a2daf5+83,bdf3fd+100;Blue+Gloss+%231 */
+            background: #b8e1fc; /* Old browsers */
+            background: -moz-linear-gradient(top,  #b8e1fc 0%, #a9d2f3 10%, #90bae4 25%, #90bcea 37%, #90bff0 50%, #6ba8e5 51%, #a2daf5 83%, #bdf3fd 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(top,  #b8e1fc 0%,#a9d2f3 10%,#90bae4 25%,#90bcea 37%,#90bff0 50%,#6ba8e5 51%,#a2daf5 83%,#bdf3fd 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to bottom,  #b8e1fc 0%,#a9d2f3 10%,#90bae4 25%,#90bcea 37%,#90bff0 50%,#6ba8e5 51%,#a2daf5 83%,#bdf3fd 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8e1fc', endColorstr='#bdf3fd',GradientType=0 ); /* IE6-9 */
+
+         }
+         .box4 {
+            -webkit-box-shadow: 10px 10px 0 5px #5CFFC3;
+            box-shadow: 10px 10px 0 5px #5CFFC3;
+         }
+    </style>
+</head>
+<body>
+    <h1>text-shadow 효과주기</h1>
+    <div class="box1">box-shadow에 outset</div>
+    <div class="box2">bow-shadow에 inset</div>
+    <div class="box3">box-shadow에 linear 복사하기</div>
+    <div class="box1">box-shadow에 radial-gradient</div>
+
+</body>
+</html>

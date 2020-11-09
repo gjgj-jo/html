@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        #wrap {
+            border: 1px solid #000;
+        }
+        #wrap div {
+            width: 300px;
+            height: 300px;
+            border: 3px dotted yellow;
+            float: left;
+        }
+        .box1 {
+            background-color: pink;
+            position: static; /*정적임. 변화없음*/
+            left: 10px;       /*효과없음*/
+            top: 10px;       /*효과없음*/
+        }
+        .box2 {
+            background-color: green;
+            position: relative;     /*상대적인 위치*/
+            left: 10px;  
+            top: 10px;  
+        }
+        .box3 {
+            background-color: skyblue;
+            position: absolute; /*절대적인 위치 (부모위치기준)*/
+            left: 10px; 
+            top: 10px;
+        }
+        .box4 {
+            background-color: cornflowerblue;
+            position: fixed; /*모니터 기준*/
+            left: 100px;    /*왼쪽에서 100px이동*/
+            top: 100px;     /*위쪽에서 100px이동*/
+        }
+        .box5 {
+            background-color: palevioletred;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div class="box1">box1</div>
+        <div class="box2">box2</div>
+        <div class="box3">box3</div>
+        <div class="box4">box4</div>
+        <div class="box5">box5</div>
+    </div>
+</body>
+</html>
